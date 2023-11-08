@@ -70,8 +70,8 @@ function App() {
   return (
    <>
    <Provider store={store}>
-   <Router basename='/reactweb' >
-   {/* <Router>  */}
+   {/* <Router basename='/reactweb' > */}
+   <Router> 
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
