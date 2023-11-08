@@ -51,7 +51,7 @@ function Home() {
                     <div className="front_page_text p-xl-5" data-aos="fade-up">
                       <span className="front_page_span">Relax &amp; Enjoy</span>
                       <h1>
-                        Test Your{" "}
+                        Your{" "}
                         <span className="front_page_highlight">
                           Wander<span>lust</span>
                         </span>{" "}
