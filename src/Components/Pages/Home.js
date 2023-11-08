@@ -78,7 +78,7 @@ function Home() {
                 <div className="row flex-nowrap">
                   <div className="col-auto">
                     <img
-                      src={require("../assets/img/gallery/frame3.webp")}
+                      src={require("../assets/img/gallery/img1.jpg")}
                       alt="frame"
                       width={"550"}
                       height={"560"}
