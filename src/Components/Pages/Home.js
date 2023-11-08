@@ -14,7 +14,11 @@ import "../assets/css/flightsearchstyle.css";
 import "../assets/css/flightsearchstyle_2.css";
 import "../assets/icofont/icofont.css";
 import { useSelector } from "react-redux";
-import { hiddenNumber, homeDesc, homeTitle } from "../GlobalData/GlobalMetaData";
+import {
+  hiddenNumber,
+  homeDesc,
+  homeTitle,
+} from "../GlobalData/GlobalMetaData";
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -28,10 +32,11 @@ function Home() {
     });
   }, []);
   return (
-    <>  
-    <Helmet>
+    <>
+      <Helmet>
         <title>{homeTitle}</title>
         <meta name="description" content={homeDesc} />
+        <meta http-equiv="cache-control" content="no-cache" />
       </Helmet>
       {loading ? (
         <FlightLoader />
@@ -43,10 +48,7 @@ function Home() {
               <div className="container">
                 <div className="row about">
                   <div className="col-xl-12 col-lg-12 col-12 col-md-12 my-5 py-5 py-lg-5 my-lg-5 py-xl-2 my-xl-0 text-start">
-                    <div
-                      className="front_page_text p-xl-5"
-                      data-aos="fade-up"
-                    >
+                    <div className="front_page_text p-xl-5" data-aos="fade-up">
                       <span className="front_page_span">Relax &amp; Enjoy</span>
                       <h1>
                         Test Your{" "}
@@ -88,7 +90,6 @@ function Home() {
                       alt="frame2"
                       width={"290"}
                       height={"560"}
-                     
                     />
                   </div>
                 </div>
@@ -133,7 +134,9 @@ function Home() {
                     <h6>Get Exclusive Deals!</h6>
                   </div>
                   <div className="col-12">
-                    <a href={`tel:${hiddenNumber}`}>Buckle Up! Time to Take Off!</a>
+                    <a href={`tel:${hiddenNumber}`}>
+                      Buckle Up! Time to Take Off!
+                    </a>
                   </div>
                 </div>
                 <div className="col-3 my-auto">
@@ -162,6 +165,6 @@ function Home() {
       )}
     </>
   );
-};
+}
 
 export default React.memo(Home);
