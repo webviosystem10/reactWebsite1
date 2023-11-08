@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root{
+    --prim-color: #163c8c;
+    --prim-trans: #e8feff;
+    --sec-color: #011c27ff;
+    --bg-color: #f0f0f0;
+    --black: #011c27ff;
+    --gray: #808080ff; 
+    --gray-trans: rgba(128, 128, 128, 0.315);
+    --gradient: ;
+    --btn-shad: 1px 1px 3px black;
+}
+body{
+    background-color: #f0f0f0;
+    overflow-x: hidden;    
+}
+/* ------------------------------------------------------ Common Styles ------------------------------------------------------ */
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+h2{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--sec-color);
+}
+h3{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 26px;
+}
+h4{
+    font-family: 'Oxygen';
+    font-weight: 600;
+}
+h6{
+    font-family: 'Ubuntu', 'sans-serif';
+    font-weight: 700;
+}
+.text-transparent{
+    color: transparent;
+}
+.text-white-1{
+    color: #697488;
+}
+.view_more{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+table thead{
+    font-family: 'ubuntu', 'sans-serif';
+}
+button, div a{
+    font-family: 'ubuntu', sans-serif;
+}
+.divider{
+    border-top: 1px solid #ddd;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(100, 100, 100) ;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-2px);
+  }
+/* ------------------------------------------------------ DropDown Menu ------------------------------------------------------ */
+input:focus, input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    font-weight: 500;
+}
+.travel-search select#fare_class {
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ccc;
+    width: 90px;
+}
+
+.dropdown-menu .dropdown-item{
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+    padding: 5px !important;
+}
+
+.form_search_bottom .dropdown-menu{
+    padding: 10px;
+    line-height: 2.5em;
+    width: 200px;
+    border: none;
+    border-bottom: 3px solid var(--sec-color);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.form_search_bottom .dropdown-menu label{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* --------------------------- Flight Search List CSS -------------------------------*/
+.form-check-input:checked {
+    background-color: rgb(13, 189, 253);
+}
+.form-check-input:hover{
+    border: 2px solid rgb(13, 189, 253);
+}
+.form-check-input{
+    width: 1.2em;
+    height: 1.2em;
+    border: var(--bs-border-width) solid #010101;
+}
+/* Flight Route Representor Line */
+.flightLine {
+    position: relative;
+    top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 1px;
+    background-color: #ffe79f;
+}
+.flightLine>:first-child {
+    left: 10%;
+    background-color: #ffd350;
+}
+.flightLine>:nth-child(2) {
+    right: 10%;
+    background-color: #ffd350;
+}
+.flightLine>:nth-child(3) {
+    right: 50%;
+    background-color: #ffd350;   
+}
+.flightLine>* {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 9px;
+    border: 1px solid #ffd350;   
+}
+.flight_search_list_section{
+    background-color: var(--bg-color);
+    border-top: 1px solid #ddd;
+}
+li{
+    list-style: none;
+}
+.table th, .table td{
+    background-color: transparent;
+    border: none;
+}
+.table .filter_title{
+    width: 195px;
+}
+/* Filter quick select date box and flight timing filter style */
+.filter_date_qsbox button, .filter_flight_time button{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 12px;
+}
+.filter_flight_time .filter_time{
+    font-size: 11px;
+}
+.filter_flight_time button{
+    background-color: #efefef;
+}
+.filter_date_qsbox button{
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    width: 120px;
+    height: 60px
+}
+.filter_date_qsbox button:hover, .filter_wrapper .filter_flight_time button:hover{
+    background-color: var(--prim-trans);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.filter_date_qsbox button span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.filter_wrapper .filter_flight_time button{
+    border-radius: 5px;
+    width: 120px;
+    margin: 4px;
+}
+.departure_box{
+    column-count: 2;
+    padding: 0;
+}
+.departure_box li{
+    margin-bottom: 4px;
+}
+/* Flight Search List Style  */
+.flight_book_btn{
+    padding: 0 20px;
+    background: linear-gradient(to right, rgb(13,110,253) 0%, rgba(13, 213, 253, 0.724) 100%);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+.flight_search_listwrap .btndiv .view_deal{
+    background-color: rgba(13, 189, 253, 0.15);
+    border: 2px solid rgb(13, 189, 253);
+    color: rgb(13, 189, 253);
+    transition: all 0.2s ease-in-out;
+}
+.flight_search_listwrap .btndiv .view_deal:hover{
+    background-color: rgb(13, 189, 253);
+    border: none;
+    color: white;
+}
+.flight_search_listwrap .btndiv .view_deal:hover, .flight_book_btn:hover{
+    background: rgba(13, 189, 253, 0.15);
+    color: rgb(13, 189, 253);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.flight_search_listwrap .btndiv button:active, .flight_book_btn:active{
+    transform: scale(0.97);
+}
+.flight_details, .book_btn_text span{
+    font-size: 12px;
+}
+.flight_details_collapsible button{
+    font-size: 13px !important;
+}
+.flight_details_collapsible button:active, .flight_details_collapsible button.active{
+    background-color: rgb(13,110,253) !important;
+    color: white !important;
+}
+.flight_details_data, .fare_data, .cancellation_data{
+    display: none;
+}
+.flight_details_data{
+    display: block;
+}
+.flight_details_data .date{
+    font-size: 12px;
+}
+.flight_details_data .stop, .cancellation_data .stop, table tr td, .flight_search_listbox .logo{
+    font-size: 14px;
+}
+.flight_search_listbox .flightid{
+    font-size: 12px; white-space: nowrap;
+}
+.dropdown-menu.show {
+    display: block;
+    border: none;
+    /* left: -25px !important; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 10px 5px 10px 10px;
+    width: 180px;
+}
+.flight_search_form select{
+    font-family: 'Ubuntu', 'sans-serif';   
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.flight_search_form p{
+    font-size: 12px;
+}
+/* Flight Search Input  */
+.header_flight_search input{
+    box-sizing: border-box;
+    /* width: 170px; */
+    /* padding-left: 40px; */
+}
+/* Date Picker Icon Hide */
+/* input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+} */
+/* Range Slider Style  */
+input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 200px;
+    background-color: transparent;
+}
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    height: 5px;
+    background: rgb(13,110,253);
+    background: -webkit-linear-gradient(
+      left,
+      rgb(13,110,253) 0%,
+      rgba(13, 213, 253, 0.724) 50%,
+      rgba(7, 55, 129, 0.654) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgb(13,110,253) 0%,
+      rgba(13, 213, 253, 0.724) 50%,
+      rgba(7, 55, 129, 0.654) 100%
+    );
+}
+
+  input[type="range"]::-moz-range-track {
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    height: 5px;
+    background: rgb(13,110,253);
+    background: -webkit-linear-gradient(
+      left,
+      rgb(13,110,253) 0%,
+      rgba(13, 213, 253, 0.724) 50%,
+      rgba(7, 55, 129, 0.654) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgb(13,110,253) 0%,
+      rgba(13, 213, 253, 0.724) 50%,
+      rgba(7, 55, 129, 0.654) 100%
+    );
+}
+  
+  input[type="range"]::-ms-track {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: rgb(13,110,253);
+    background: -moz-linear-gradient(
+      left,
+      rgb(13,110,253) 0%,
+      rgba(13, 213, 253, 0.724) 50%,
+      rgba(7, 55, 129, 0.654) 100%
+    );
+    background: -webkit-linear-gradient(
+      left,
+      rgb(13,110,253) 0%,
+      rgba(13, 213, 253, 0.724) 50%,
+      rgba(7, 55, 129, 0.654) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgb(13,110,253) 0%,
+      rgba(13, 213, 253, 0.724) 50%,
+      rgba(7, 55, 129, 0.654) 100%
+    );
+}
+
+  input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 8px;
+  background: rgb(13,110,253) center no-repeat;
+  background-size: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  cursor: grab;
+}
+
+
+  input[type="range"]::-moz-range-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 8px;
+    background: rgb(13,110,253) center no-repeat;
+    background-size: 50%;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    cursor: grab;
+}
+
+  input[type="range"]::-ms-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 8px;
+    background: rgb(13,110,253) center no-repeat;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    cursor: grab;
+}
+.filter_wrapper .close, .filter_wrapper_phn button{
+    display: none;
+}
+.filter_wrapper{
+    display: block;
+}
+.book_btn_text{
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    input[type="range"] {
+        width: 240px;
+    }
+    .departure_box{
+        column-count: 2;
+        padding: 0px 20px 0px 0px;
+    }
+    .filter_wrapper .filter_flight_time button{
+        width: 170px;
+    }
+    .filter_wrapper{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        max-height: 100%;
+        z-index: 999;
+        line-height: normal;
+        overflow-y: scroll;
+    }
+    .filter_wrapper .close, .filter_wrapper_phn button{
+        display: block;
+    }
+    .filter_wrapper{
+        display: none;
+    }
+    .highlight_text{
+        display: none;
+    }
+    .book_btn_text{
+        position: relative;
+        right: -85px;
+        top: -20px;
+    }
+    .filter_flight_time button{
+        line-height: 20px;
+    }
+}
+.flight_bookdetails_wrapper .book_cancel_box span{
+    padding: 2px 5px;
+    font-size: 11px;
+    background: linear-gradient(to right, rgba(82, 170, 0, 0.719) 0%, rgb(40, 173, 0) 50%);
+}
+.flight_bookdetails_wrapper .book_cancel_box a, .book_misc_box table th{
+    font-size: 14px;
+}
+.flight_bookdetails_wrapper{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.flight_bookdetails_wrapper .book_flightinfo_box span, .book_route_box span{
+    font-size: 12px;
+    margin-top: auto;
+}
+.flight_bookdetails_wrapper .book_misc_box table th{
+    font-weight: 600;
+}
+.flightlinewrapper{
+    width: 8%;
+}
+.flightline2{
+    position: relative;
+    top: 0;
+    left: 40px;
+    height: 30px;
+    width: 2px;
+    background-color: #ffd350;
+}
+.flightline2>*{
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: #ffd350;
+}
+.flightline2>:first-child{
+    top: 0;
+    left: -4px;
+}
+.flightline2>:nth-child(2){
+    bottom: 0;
+    left: -4px;
+}

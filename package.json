@@ -1,0 +1,67 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "homepage": "/reactweb",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.11",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.9.4",
+    "aos": "^2.3.4",
+    "axios": "^1.5.1",
+    "buffer": "^6.0.3",
+    "credit-card": "^3.0.2",
+    "dayjs": "^1.11.10",
+    "helmet": "^7.0.0",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.2",
+    "luhn-js": "^1.1.2",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-creditcard-validator": "^1.0.6",
+    "react-date-picker": "^10.5.1",
+    "react-datepicker": "^4.18.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-phone-number-input": "^3.3.6",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "5.0.1",
+    "react-simple-captcha": "^9.3.0",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.3",
+    "react-top-loading-bar": "^2.3.1",
+    "redux": "^4.2.1",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

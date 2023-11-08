@@ -1,0 +1,229 @@
+.slicknav_menu{
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    
+    #user_captcha_input{width: max-content;}
+    .about_front_page{top: 65px!important;}
+    .Flight-loader{width: 90%;}
+    .flight-loader-details{width: 90%;}
+    .flight_details_collapsible .flight_details_airline img{display: none !important;}
+    .recom_flights .airline_logo img{
+        display: none;
+    }
+    .flight_search_listbox .airline_logo{display: flex;}
+    .slicknav_menu{
+        display: block;
+    }
+    .menu{
+        display: none !important;
+    }
+    .home_front_page .travel-search-form{
+        /* right: -20px; */
+        top: 75px !important;
+        width: 94% !important;
+    }
+    .home_front_page .row1{display: none;}
+    .flight_front_page .travel-search-form{
+        top: -50px !important;
+        right: 0 ; 
+    }
+    .flights_front_banner{
+        opacity: 0.3 !important;
+    }
+    .flight_front_page .front_page_text h1{
+        color: var(--prim-color);
+    }
+    .flight_front_page .front_page_text p{
+        color: var(--sec-color);
+    }
+    .flight_front_page .front_page_text .front_page_span{
+        color: var(--sec-color);
+    }
+    .flight_front_page .front_page_highlight{
+        text-shadow: none !important;
+    }
+    /* .section_margin{
+        margin-top: 300px !important;
+    } */
+    .cta_section{
+        display: none;
+    }
+    .desktop-hide{
+        display: block !important;
+    }
+    .cta_section_phn{
+        display: block !important;
+    }
+    .partner_flight_call{
+        display: none;
+    }
+    .airlines_page{margin-top: 80px !important;}
+    section.airlines_page .containBox{
+        flex-direction: column-reverse!important;
+    }
+    /* section.airlines_page div .travel-search-form div{
+        flex-direction: row-reverse!important;
+    } */
+    .airlines_page .airlines_text{margin-top: 25px;}
+    .airlines_page .travel-search-form{
+        top: 0px !important;
+        right: 11px;
+    }
+    .sidenav_btn{
+        visibility: visible !important;
+        width: fit-content;
+        margin-left: auto;
+        left: 0%;
+    }
+    /* .sidenav_nav{
+        display: none;
+    } */
+    /* .section_margin_homefiller{
+        margin-top: 260px !important;
+    } */
+    .contact_front_page .front_page_text{
+        margin-top: 28% !important;
+    }
+    .aboutBanner_text{display: none;}
+    .about_front_page {
+        background-position: center -190px;
+        height: revert !important;
+    }
+    .section_margin{
+        margin-top: 85px;
+    }
+    .flight_front_page{
+        display: none;
+    }
+    .form-group1.form-btn-style.col-xl-3.col-12.col-md-12.mt-md-3.mt-3.mt-xl-3.mx-auto .btn{
+        max-width: 100% !important;
+        padding: 12px 30px 12px 30px;
+        background-image: linear-gradient(to right, rgb(57 172 255), rgb(78 95 255));
+        border: none;
+    }
+    .col-lg-3.col-12.col-md-6.my-5.margin_revert {
+        margin: 15px 0px 0px 0px !important;
+    }
+    .footer ul{
+        padding: 0px 30px;
+    }
+    .flight_details_collapsible button {
+        font-size: 13px !important;
+        padding: 8px 10px;
+    }
+    .flight_bookdetails_wrapper .book_cancel_box span{
+        padding: 5px 5px 3px 5px !important;
+        font-size: 10px !important;
+        margin: 0px !important;
+        background: linear-gradient(to right, rgb(13 178 255) 0%, rgb(56 121 255) 50%) !important;
+    }
+    .col-xl-6.col-lg-6.col-md-6.col-3.text-end.my-auto .fw-light {
+        font-size: 13px;
+    }
+    .border-success {
+        border-color: #1b76fd !important;
+    }
+    .footer ul li{
+        line-height: 18px;
+    }
+    .form-control{
+        margin: 0px 0px 12px 0px;
+    }
+    .col-lg-12.col-xl-12.col-12.col-md-12.mx-auto.mt-5.p-5.pb-0.padding_revert {
+        padding: 0px !important;
+        margin: 62px 0px -22px 0px !important;
+    }
+    .col-xl-8.p-5.text_content.mx-auto {
+        padding: 10px 10px 35px 10px !important;
+    }
+    .filler_banner h1{
+        font-size: 26px;
+    }
+    a.btn.my-2{
+        font-size: 12px;
+        padding: 8px 30px 10px 30px;
+    }
+    .text-center11.d-flex {
+        display: flex !important;
+        justify-content: left;
+    }
+    section.airlines_page div .travel-search-form div .btn{
+        max-width: 100% !important;
+        padding: 12px 30px 12px 30px;
+        background-image: linear-gradient(to right, rgb(57 172 255), rgb(78 95 255));
+        border: none;
+    }
+    .travel-search-form .form-control{
+        margin: 0px 0px 0px 0px;
+    }
+    .airlines_page .dropdown-menu.show{
+        width: 94%;
+        left: -22px !important;
+    }
+    .airlines_page .passnger_submit{
+        padding: 8px 30px 8px 30px !important;
+    }
+    ul.ul_padding_remove {
+        padding: 0px;
+    }
+    .sitemap a{
+        font-size: 14px;
+        padding: 10px 5px 10px 5px;
+    }
+    .section-title.text-center.why_title h1 {
+        font-size: 25px;
+    }
+    .form-group1.form-btn-style.col-12.mt-md-3.mt-3.mt-xl-3.mx-auto.text-center .btn{
+        max-width: 100% !important;
+        padding: 12px 30px 12px 30px;
+        background-image: linear-gradient(to right, rgb(57 172 255), rgb(78 95 255));
+        border: none;
+    }
+    .home_front_page.flights .dropdown_face{
+        padding: 2px 0px 0px 15px;
+    } 
+    .col-12.bg-white.shadow-sm.p-2 {
+        margin: 0px 0px 18px 0px;
+    }
+    section.bg-white.pb-3.pt-2 {
+        margin: 10px 0px 0px 0px;
+    }
+    .contact_front_page{
+        margin-top: 60px;
+    }
+    
+  }
+  @media screen and (max-width: 768px){
+    .contact_front_page .front_page_text{
+        margin-top: 17%;
+    }
+    .desktop-hide{
+        display: block !important;
+    }
+    .mui-loader-departure, .mui-loader-arrival {
+        width: 25px !important;
+        height: 25px !important;
+        position: absolute;
+        right: 30px;
+        margin-top: -34px;
+        /* margin-left: 280px; */
+    }
+    /*custome css code start*/    
+    .phone_holder img {
+        width: 80px;
+        height: 80px;
+    }
+    .filler_banner{
+        height: revert;
+        padding: 40px 0px;
+    }
+    .filler_banner::before{
+        height: 261px;
+    }
+    .travel-search .travel-search-form{
+        width: 94%;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+  }    
