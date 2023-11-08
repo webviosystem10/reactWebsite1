@@ -49,7 +49,7 @@ function Home() {
                     >
                       <span className="front_page_span">Relax &amp; Enjoy</span>
                       <h1>
-                        Unleash Your{" "}
+                        Test Your{" "}
                         <span className="front_page_highlight">
                           Wander<span>lust</span>
                         </span>{" "}
