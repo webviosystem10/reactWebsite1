@@ -2,7 +2,7 @@ import React from "react";
 import {visibleNumber, websiteName} from '../GlobalData/GlobalMetaData'
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
-import {useNavigate} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 
 function ThankYou() {
   const navigate = useNavigate()
@@ -57,11 +57,11 @@ function ThankYou() {
                   Inconvenience is regreted
                 </p>
                 <div className="thankyou-btn">
-                  <a href="">
+                  <Link to="/">
                     <button type="button" className="bntchatthank mt-4 border-0">
                       Back To Home{" "}
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
