@@ -291,7 +291,7 @@ function FlightBooking() {
         };
         axios
           .post(
-            "https://api.theinfinitytravel.com/index.php/api/flight/lead",
+            // "https://api.theinfinitytravel.com/index.php/api/flight/lead",
             parsedData
           )
           .then((res) => {
