@@ -298,38 +298,11 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="border-bottom">
-                  <a
-                    href="#contentId"
-                    data-bs-toggle="collapse"
-                    to="/refund-policy"
-                    aria-expanded="false"
-                    aria-controls="contentId"
-                  >
-                    <i className="icofont-dollar-plus fs-2 text-primary-emphasis" />{" "}
-                    Documentation <i className="icofont-rounded-down" />
-                  </a>
+                  <Link onClick={scrollToTop} to="/refund-policy">
+                    <i className="icofont-dollar-true me-1 fs-2 text-primary-emphasis" />{" "}
+                    Refund Policy
+                  </Link>
                 </li>
-                <div className="collapse px-2" id="contentId">
-                  <li className="border-bottom">
-                    <Link
-                      onClick={scrollToTop}
-                      to="/refund-policy"
-                      className="text_small"
-                    >
-                      Refund Policy
-                    </Link>
-                  </li>
-                  <li className="border-bottom">
-                    <Link
-                      onClick={scrollToTop}
-                      to="/privacy-policy"
-                      className="text_small"
-                    >
-                      Privacy Policy
-                    </Link>
-                  </li>
-                  {/* <li className="border-bottom"><Link onClick={scrollToTop} to="/terms-conditions" className="text_small">Terms & Conditions</Link></li> */}
-                </div>
 
                 <li className="border-bottom bg-primary-subtle">
                   <a href={hiddenNumber} className="mx-auto fw-semibold fs-4">
