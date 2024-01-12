@@ -508,3 +508,158 @@ input[type="range"] {
     bottom: 0;
     left: -4px;
 }
+
+/* Hotel form start */
+
+.search_form input,
+.search_form button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: rgba(0, 0, 0, 0) solid 1px;
+  transition: all 0.2s ease-in;
+}
+
+.search_form input:hover,
+.search_form button:hover {
+  background-color: #ddd;
+}
+
+.search_form .flightdate {
+  background-color: white;
+}
+
+
+.main_wrapper.hotel_listbox .searchformyes {
+    position: relative;
+  }
+
+  .main_wrapper.hotel_listbox .departure-suggestion {
+    top: 144px;
+    left: 2.5%;
+    width: 95% !important;
+  }
+
+  .flight_search_listbox {
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px, rgba(0, 0, 0, 0.13) 0px 3px 6px;
+    border: 1px solid #00000000;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .flight_search_listbox:hover {
+    border: 1px solid #0000007a;
+  }
+  
+  .flight_details_data .stop,
+  .cancellation_data .stop,
+  table tr td,
+  .flight_search_listbox .logo {
+    font-size: 14px;
+  }
+  
+  .flight_search_listbox .flightid {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .hotelListImageContainer {
+    width: 230px;
+    height: 185px;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+  }  
+
+  #hotel .hotelPriceBoxPhone {
+    display: none ;
+  }
+  #hotel .hotelPriceBoxPhone .flight_book_btn {
+    max-width: 100%;
+    font-size: 18px;
+  }
+/* 
+  #hotel .hotelPriceBox {
+    display: none !important;
+  } */
+  
+.flight_book_btn a {
+    color: white;
+  }
+  
+  .flight_book_btn a:hover {
+    color: rgb(13, 189, 253);
+  }
+  
+  .flight_search_listwrap .btndiv .view_deal:hover,
+  .flight_book_btn:hover {
+    background: rgba(13, 189, 253, 0.15);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .flight_search_listwrap .btndiv button:active,
+  .flight_book_btn:active {
+    transform: scale(0.97);
+  }
+
+  .flight_book_btn {
+    padding: 10px 20px;
+    background: linear-gradient(270deg,
+        rgba(40, 199, 191, 1) 0%,
+        rgba(47, 230, 222) 100%);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    font-size: 13px;
+  }
+  .flight_passengerdetails_wrapper,
+.flight_confirmdetails_wrapper {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px, rgba(0, 0, 0, 0.13) 0px 3px 6px;
+  border-radius: 10px;
+}
+
+.propertyAmenities span {
+    font-size: 16px;
+  }
+  
+  .propertyAmenities ul li {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .slider_segment .sub-heading,
+.XSflights_segment .sub-heading {
+  font-size: 15px;
+}
+
+.textwrap_route {
+    z-index: 1;
+    bottom: 80px;
+    margin-left: 15px;
+    /* border-radius: 5px; */
+    padding: 2px;
+  }
+  
+  .textwrap_route span {
+    padding: 8px;
+    font-family: "Belanosima";
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .hotel_listbox{
+    margin-top: 40px;
+    align-items: center;
+  }
+  .area-search-loader {
+    width: 50px !important;
+    /* height: 25px !important; */
+    position: absolute;
+    margin-top: 9px;
+    /* margin-left: -88px; */
+  }
+
+  .main_wrapper{
+    margin-top: 45px;
+  }
+/* Hotel form end */

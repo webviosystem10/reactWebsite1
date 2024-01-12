@@ -504,3 +504,498 @@ input[type="range"] {
     bottom: 0;
     left: -4px;
 }
+
+
+/*skeleton_loader section code start*/
+body {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  /*skeleton_loader section code start*/
+  .skeleton_loader {
+    padding: 30px 0px;
+  }
+  
+  .skeleton_loader .main_heading_box {
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    border: 1px solid #21212114;
+  }
+  
+  .skeleton_loader .main_heading_box .box1 {
+    width: 40%;
+    height: 20px;
+    background: #e6e6e6;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .main_heading_box .box2 {
+    width: 20%;
+    height: 20px;
+    background: #e6e6e6;
+    margin: 10px 0px 0px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  @keyframes wave-lines {
+    0% {
+      background-position: -468px 0;
+    }
+  
+    100% {
+      background-position: 468px 0;
+    }
+  }
+  
+  .skeleton_loader .filter_box {
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border: 1px solid #21212114;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .skeleton_loader .filter_box .up_box {
+    height: 40px;
+    background: #e6e6e6;
+    margin: 10px 0px 0px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+    margin-bottom: 20px;
+  }
+  
+  .skeleton_loader .filter_box .content_box {
+    height: 30px;
+    background: #e6e6e6;
+    margin: 10px 0px 0px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .filter_box .sub_contentbox {
+    height: 10px;
+    background: #e6e6e6;
+    margin: 10px 0px 0px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .filter_box .list_box ul {
+    column-count: 2;
+    list-style: none;
+    padding: 0px;
+    margin: 6px;
+  }
+  
+  .skeleton_loader .filter_box .list_box ul li .box {
+    height: 40px;
+    background: #e6e6e6;
+    border-radius: 4px;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .weekly_box ul {
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+    list-style: none;
+    column-count: 5;
+  }
+  
+  .skeleton_loader .weekly_box ul li .box {
+    height: 60px;
+    background: #e6e6e6;
+    border-radius: 4px;
+    margin: 0px 0px 0px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .recomended_box {
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border: 1px solid #21212114;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+  }
+  
+  .skeleton_loader .recomended_box .heading_box {
+    height: 20px;
+    width: 45%;
+    background: #e6e6e6;
+    border-radius: 4px;
+    margin: 0px 0px 0px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 8px;
+    padding: 20px 10px;
+    border: 1px solid rgba(33, 33, 33, 0.08);
+    margin: 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox .image_box {
+    height: 60px;
+    width: 10%;
+    background: #e6e6e6;
+    border-radius: 4px;
+    margin: 0px 0px 0px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox .text_box {
+    width: 30%;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox .text_box .box {
+    height: 10px;
+    background: #e6e6e6;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox .stop_box {
+    width: 20%;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox .stop_box .element_box {
+    height: 10px;
+    background: #e6e6e6;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox .last_box {
+    width: 30%;
+  }
+  
+  .skeleton_loader .recomended_box .main_elementbox .last_box .text_con {
+    height: 10px;
+    background: #e6e6e6;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .recomended_box.remove_padding .main_elementbox {
+    margin: 0px;
+  }
+  
+  .skeleton_loader .recomended_box.hotel_detailsbox .main_elementbox .text_box {
+    width: 58%;
+  }
+  
+  .skeleton_loader .recomended_box.hotel_detailsbox .main_elementbox .image_box {
+    height: 132px;
+    width: 18%;
+    border-radius: 6px;
+  }
+  
+  .skeleton_loader .recomended_box.hotel_detailsbox .main_elementbox {
+    align-items: revert;
+  }
+  
+  .skeleton_loader .recomended_box.hotel_detailsbox .main_elementbox .text_box .box.heading_element {
+    height: 35px;
+  }
+  
+  .skeleton_loader .recomended_box.hotel_detailsbox .main_elementbox .stop_box .element_box.button_box {
+    height: 35px;
+    border-radius: 6px;
+  }
+  
+  .skeleton_loader .recomended_box.hotel_detailsbox .main_elementbox .stop_box {
+    margin-top: 20px;
+  }
+  
+  .skeleton_loader .hetel_detailsbox {
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border: 1px solid #21212114;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+  }
+  
+  .skeleton_loader .hetel_detailsbox .icon_element {
+    width: 35%;
+    height: 50px;
+    background: #e6e6e6;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .hetel_detailsbox .text_box {
+    height: 10px;
+    background: #e6e6e6;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .heading_element .sub_heading_element {
+    height: 20px;
+    width: 55%;
+    background: #e6e6e6;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+  }
+  
+  .skeleton_loader .hotel_details_imagebox {
+    height: 400px;
+    width: 96%;
+    background: #e6e6e6;
+    margin: 0px 0px 6px 0px;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+    margin: 30px 0px 0px 0px;
+  }
+  
+  .skeleton_loader .right_hotel_detailsbox {
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border: 1px solid #21212114;
+    margin: 30px 0px 30px 0px;
+  }
+  
+  .skeleton_loader .right_hotel_detailsbox .text_box {
+    height: 15px;
+    background: #e6e6e6;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .skeleton_loader .call_box {
+    height: 15px;
+    background: #e6e6e6;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        color-stop(8%, rgba(130, 130, 130, 0.2)),
+        color-stop(18%, rgba(130, 130, 130, 0.3)),
+        color-stop(33%, rgba(130, 130, 130, 0.2)));
+    background: linear-gradient(to right,
+        rgba(130, 130, 130, 0.2) 8%,
+        rgba(130, 130, 130, 0.3) 18%,
+        rgba(130, 130, 130, 0.2) 33%);
+    background-size: 800px 100px;
+    animation: wave-lines 1s infinite ease-out;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  
+  /*skeleton_loader section code end*/
+
+  
+.flight_search_form select {
+    font-family: "Ubuntu", "sans-serif";
+  }
+  
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .flight_search_form p {
+    font-size: 12px;
+  }
+  
+  /* Flight Search Input  */
+  .header_flight_search input {
+    box-sizing: border-box;
+    /* width: 170px; */
+    /* padding-left: 40px; */
+  }
+
+  
+  
+  

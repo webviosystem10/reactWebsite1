@@ -227,3 +227,124 @@
         margin-left: 3%;
     }
   }    
+
+  
+@media (max-width: 991px) {
+    #hotel .hotelPriceBoxPhone .flight_book_btn {
+        max-width: 100%;
+        font-size: 18px;
+      }
+      .area-search-loader {
+        margin-top: 5px;
+        margin-left: 264px;
+      }
+    
+      #hotel .hotelPriceBox {
+        display: none !important;
+      }
+    
+      #hotel .hotelPriceBoxPhone {
+        display: block !important;
+      }
+    
+      .hotelListImageContainer {
+        width: 100% !important;
+      }
+    
+    .airline_wrapper {
+      height: 170px;
+    }
+    .hotelListImageContainer {
+        width: 100% !important;
+      }
+    .skeleton_loader .filter_box .content_box {
+      display: none;
+    }
+  
+    .skeleton_loader .filter_box .sub_contentbox {
+      display: none;
+    }
+  
+    .skeleton_loader .filter_box .list_box ul li .box {
+      display: none;
+    }
+  
+    .skeleton_loader .filter_box .up_box {
+      height: 20px;
+      margin-bottom: 0px;
+    }
+  
+    .skeleton_loader .filter_box {
+      padding: 0px 10px;
+    }
+  
+    .skeleton_loader .hotel_details_imagebox {
+      height: 200px;
+    }
+    
+  /*booking_details code start*/
+  .skeleton_loader .main_hotelhtbooking_details .car_detailsbox ul {
+    display: revert;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .car_detailsbox ul li .image_box {
+    width: 100%;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .car_detailsbox ul li .top_box {
+    margin-top: 15px;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .car_detailsbox ul li .information_box {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .car_detailsbox ul li .date_box {
+    width: 30px;
+    top: 10px;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .subhotel_bookingbox .details_hotellist_box ul {
+    display: revert;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .subhotel_bookingbox .list_box ul li .text_box {
+    width: 65px;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .subhotel_bookingbox .subtext_box1 {
+    width: 100%;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .subhotel_bookingbox .details_hotellist_box ul li .images_box {
+    width: 100%;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .subhotel_bookingbox .details_hotellist_box ul li .text_con {
+    width: 100%;
+  }
+
+  .skeleton_loader .main_hotelhtbooking_details .subhotel_bookingbox .details_hotellist_box ul li .icon_box {
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+  }
+
+  .skeleton_loader .flight_booking_detailsbox ul {
+    display: revert;
+  }
+
+  .skeleton_loader .flight_booking_detailsbox .box {
+    width: 100%;
+  }
+
+  .skeleton_loader .flight_booking_detailsbox .box1 {
+    width: 100%;
+  }
+
+  .skeleton_loader .flight_booking_detailsbox .icon_box {
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+  }
+  }
+  
