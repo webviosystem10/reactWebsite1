@@ -22,15 +22,15 @@ function RecomendedFlight() {
     dispatch({
       type: "SET_ADULT",
       adult: 1,
-    })
+    });
     dispatch({
       type: "SET_CHILDREN",
       children: 0,
-    })
+    });
     dispatch({
       type: "SET_INFANTS",
       infants: 0,
-    })
+    });
     window.scrollTo(0, 0);
     dispatch({
       type: "SET_FLIGHTWAY",
@@ -69,11 +69,11 @@ function RecomendedFlight() {
       type: "SET_TOTALPASSENGER",
       totalPassenger: 1,
     });
-    localStorage.setItem("totalPassenger",1)
-    localStorage.setItem("tripClass","ECONOMY")
-    localStorage.setItem("adult",1)
-    localStorage.setItem("children",0)
-    localStorage.setItem("infants",0)
+    localStorage.setItem("totalPassenger", 1);
+    localStorage.setItem("tripClass", "ECONOMY");
+    localStorage.setItem("adult", 1);
+    localStorage.setItem("children", 0);
+    localStorage.setItem("infants", 0);
     localStorage.setItem("departure", departure);
     localStorage.setItem("departureItaCode", departureItaCode);
     localStorage.setItem("arrival", arrival);
@@ -141,11 +141,11 @@ function RecomendedFlight() {
             numberOfBookableSeats: item.numberOfBookableSeats,
             itineraries: itineraries,
             rawData: item,
-            includedCheckedBags:{
+            includedCheckedBags: {
               // weight:item.travelerPricings[0]["fareDetailsBySegment"][0]["includedCheckedBags"]["weight"]!==undefined?"":"",
               // weightUnit:item.travelerPricings[0]["fareDetailsBySegment"][0]["includedCheckedBags"]["weightUnit"]!==undefined?item.travelerPricings[0]["fareDetailsBySegment"][0]["includedCheckedBags"]["weightUnit"]:""
-              weight:"",
-              weightUnit:""
+              weight: "",
+              weightUnit: "",
             },
           };
         });
@@ -200,14 +200,9 @@ function RecomendedFlight() {
                   />
                 </sub>
               </p>
-              <p className="text-white-1">Whatchu looking for mate?</p>
+              <p className="text-white-1">What's catching your eye today??</p>
             </div>
-            <div
-              className="col-lg-2 text-end"
-              
-            >
-              
-            </div>
+            <div className="col-lg-2 text-end"></div>
           </div>
           <div
             className="col-lg-8 col-12 col-md-12 bg-light p-3 my-4 border border-1 rounded mx-auto"
@@ -235,7 +230,8 @@ function RecomendedFlight() {
                       <div />
                     </div>
                     <div className="my-3 text-white-1">
-                    5h 4m <br/> <span className="flight_stops">One Stop</span>
+                      5h 4m <br />{" "}
+                      <span className="flight_stops">One Stop</span>
                     </div>
                   </div>
                   <div className="col-3 col-xl-auto">
@@ -250,7 +246,12 @@ function RecomendedFlight() {
                     <div className="fw-semibold">US$44</div>
                     <div className="text-white-1 text-nowrap">10 Deals</div>
                   </div>
-                  <button onClick={()=>suggestFlightClick("LOS ANGELES","SEATTLE","SEA","LAX")} className="btn mx-4" >
+                  <button
+                    onClick={() =>
+                      suggestFlightClick("LOS ANGELES", "SEATTLE", "SEA", "LAX")
+                    }
+                    className="btn mx-4"
+                  >
                     View Deal <i className="icofont-double-right" />
                   </button>
                 </div>
@@ -282,7 +283,8 @@ function RecomendedFlight() {
                       <div />
                     </div>
                     <div className="my-3 text-white-1">
-                    1h 31m <br/> <span className="flight_stops">Non Stop</span>
+                      1h 31m <br />{" "}
+                      <span className="flight_stops">Non Stop</span>
                     </div>
                   </div>
                   <div className="col-3 col-xl-auto">
@@ -297,7 +299,12 @@ function RecomendedFlight() {
                     <div className="fw-semibold">US$36</div>
                     <div className="text-white-1 text-nowrap">10 Deals</div>
                   </div>
-                  <button onClick={()=>suggestFlightClick("ATLANTA","TAMPA","TPA","ATL")} className="btn mx-4" >
+                  <button
+                    onClick={() =>
+                      suggestFlightClick("ATLANTA", "TAMPA", "TPA", "ATL")
+                    }
+                    className="btn mx-4"
+                  >
                     View Deal <i className="icofont-double-right" />
                   </button>
                 </div>
@@ -329,7 +336,8 @@ function RecomendedFlight() {
                       <div />
                     </div>
                     <div className="my-3 text-white-1">
-                    2h 23m <br/> <span className="flight_stops">Non Stop</span>
+                      2h 23m <br />{" "}
+                      <span className="flight_stops">Non Stop</span>
                     </div>
                   </div>
                   <div className="col-3 col-xl-auto">
@@ -344,7 +352,12 @@ function RecomendedFlight() {
                     <div className="fw-semibold">US$99</div>
                     <div className="text-white-1 text-nowrap">10 Deals</div>
                   </div>
-                  <button onClick={()=>suggestFlightClick("DENVER","CHICAGO","ORD","DEN")} className="btn mx-4" >
+                  <button
+                    onClick={() =>
+                      suggestFlightClick("DENVER", "CHICAGO", "ORD", "DEN")
+                    }
+                    className="btn mx-4"
+                  >
                     View Deal <i className="icofont-double-right" />
                   </button>
                 </div>
@@ -376,7 +389,8 @@ function RecomendedFlight() {
                       <div />
                     </div>
                     <div className="my-3 text-white-1">
-                    5h 2m <br/> <span className="flight_stops">Non Stop</span>
+                      5h 2m <br />{" "}
+                      <span className="flight_stops">Non Stop</span>
                     </div>
                   </div>
                   <div className="col-3 col-xl-auto">
@@ -391,7 +405,12 @@ function RecomendedFlight() {
                     <div className="fw-semibold">US$223</div>
                     <div className="text-white-1 text-nowrap">10 Deals</div>
                   </div>
-                  <button onClick={()=>suggestFlightClick("SEATTLE","NEW YORK","JFK","SEA")} className="btn mx-4" >
+                  <button
+                    onClick={() =>
+                      suggestFlightClick("SEATTLE", "NEW YORK", "JFK", "SEA")
+                    }
+                    className="btn mx-4"
+                  >
                     View Deal <i className="icofont-double-right" />
                   </button>
                 </div>
@@ -421,10 +440,11 @@ function RecomendedFlight() {
                     <div className="flightLine">
                       <div />
                       <div />
-                      <div/>
+                      <div />
                     </div>
                     <div className="my-3 text-white-1">
-                      3h 05m <br/> <span className="flight_stops">One Stop</span>
+                      3h 05m <br />{" "}
+                      <span className="flight_stops">One Stop</span>
                     </div>
                   </div>
                   <div className="col-3 col-xl-auto">
@@ -439,7 +459,12 @@ function RecomendedFlight() {
                     <div className="fw-semibold">US$370</div>
                     <div className="text-white-1 text-nowrap">10 Deals</div>
                   </div>
-                  <button onClick={()=>suggestFlightClick("LOS ANGELES","PARIS","CDG","LAX")} className="btn mx-4" >
+                  <button
+                    onClick={() =>
+                      suggestFlightClick("LOS ANGELES", "PARIS", "CDG", "LAX")
+                    }
+                    className="btn mx-4"
+                  >
                     View Deal <i className="icofont-double-right" />
                   </button>
                 </div>

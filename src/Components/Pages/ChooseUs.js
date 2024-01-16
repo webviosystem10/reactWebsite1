@@ -7,25 +7,31 @@ function ChooseUs() {
         <div className="container">
           <div className="row text-center pt-lg-0 my-lg-0">
             <h1>
-              Why Choose Us?{" "}
+              Why are We the best for you?{" "}
               <i
                 className="icofont-hand-drawn-right prim-color"
                 data-aos="fade"
               />
             </h1>
             <p className="text-white-1 my-1">
-              Cause we have a fancy website ofcourse! Nah just kidding fam.
+              Making your every journey unforgettable is our promise
             </p>
             <div className="col-lg-3 col-12 col-md-6 my-5 margin_revert">
               <div className="filler_content" data-aos="fade-up">
                 <div className="filler_content_img">
-                  <img src={require("../assets/img/gallery/deal.webp")} alt="choose us" height={"91"} width={"91"} />
+                  <img
+                    src={require("../assets/img/gallery/deal.webp")}
+                    alt="choose us"
+                    height={"91"}
+                    width={"91"}
+                  />
                 </div>
                 <div className="filler_content_text my-4">
-                  <h2>Unbelievable Deals</h2>
+                  <h2>Mind-Blowing Deals</h2>
                   <p className="my-1">
-                    Culpa ipsum sint excepteur anim incididunt mollit labore eu
-                    Lorem duis anim deserunt aliquip.
+                    Unlock unparalleled adventures with jaw-dropping discounts
+                    on flights—because your wanderlust deserves mind-blowing
+                    deals!
                   </p>
                 </div>
               </div>
@@ -39,14 +45,16 @@ function ChooseUs() {
                 <div className="filler_content_img">
                   <img
                     src={require("../assets/img/gallery/customer-sup.webp")}
-                    alt="choose us" height={"91"} width={"91"}
+                    alt="choose us"
+                    height={"91"}
+                    width={"91"}
                   />
                 </div>
                 <div className="filler_content_text my-4">
-                  <h2>1-1 Client Support</h2>
+                  <h2>Personalized Support</h2>
                   <p className="my-1">
-                    Culpa ipsum sint excepteur anim incididunt mollit labore eu
-                    Lorem duis anim deserunt aliquip.
+                    Plan your VIP travel using our flight site – enjoy
+                    personalized recommendations, benefits, and assistance!
                   </p>
                 </div>
               </div>
@@ -60,14 +68,16 @@ function ChooseUs() {
                 <div className="filler_content_img">
                   <img
                     src={require("../assets/img/gallery/quote.webp")}
-                    alt="choose us" height={"91"} width={"91"}
+                    alt="choose us"
+                    height={"91"}
+                    width={"91"}
                   />
                 </div>
                 <div className="filler_content_text my-4">
-                  <h2>Quote-on-Budget</h2>
+                  <h2>Unmatched Flexibility</h2>
                   <p className="my-1">
-                    Culpa ipsum sint excepteur anim incididunt mollit labore eu
-                    Lorem duis anim deserunt aliquip.
+                    Seize flights on your terms! This is your ticket to travel
+                    freedom and choice!
                   </p>
                 </div>
               </div>
@@ -81,14 +91,16 @@ function ChooseUs() {
                 <div className="filler_content_img">
                   <img
                     src={require("../assets/img/gallery/instant-booking.webp")}
-                    alt="choose us" height={"91"} width={"91"}
+                    alt="choose us"
+                    height={"91"}
+                    width={"91"}
                   />
                 </div>
                 <div className="filler_content_text my-4">
-                  <h2>Instant Booking Confirmation</h2>
+                  <h2>Swift Booking Confirmations</h2>
                   <p className="my-1">
-                    Culpa ipsum sint excepteur anim incididunt mollit labore eu
-                    Lorem duis anim deserunt aliquip.
+                    Get set for the jet! Instantly lock your seat – swift
+                    booking, no delays, pure thrill.
                   </p>
                 </div>
               </div>

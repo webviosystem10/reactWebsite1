@@ -3,25 +3,25 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 function TopDestination() {
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 5
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 3
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-      };
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 5,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <>
       <section className="my-5">
@@ -43,7 +43,7 @@ function TopDestination() {
                 />
               </sub>
             </p>
-            <p className="text-white-1">Its 1:04 AM and I am high af so...</p>
+            <p className="text-white-1">Ready to find your next obsession?</p>
           </div>
           {/* <div className="flights-slider"> */}
           {/* <Slider {...settings} className="flights-slider"> */}
@@ -57,7 +57,28 @@ function TopDestination() {
             <div className="slider-content">
               <a href="#">
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
+                </div>
+                <div className="flights-slider-text">
+                  <p className="h5">Idaho</p>
+                  <p>Somewhere Unknown</p>
+                </div>
+              </a>
+            </div>
+            <div className="slider-content">
+              <a href="#">
+                <div className="flights-slider-img">
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
                 </div>
                 <div className="flights-slider-text">
                   <p className="h5">Zephyr</p>
@@ -68,7 +89,12 @@ function TopDestination() {
             <div className="slider-content">
               <a href="#">
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
                 </div>
                 <div className="flights-slider-text">
                   <p className="h5">Zephyr</p>
@@ -79,7 +105,12 @@ function TopDestination() {
             <div className="slider-content">
               <a href="#">
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
                 </div>
                 <div className="flights-slider-text">
                   <p className="h5">Zephyr</p>
@@ -90,7 +121,12 @@ function TopDestination() {
             <div className="slider-content">
               <a href="#">
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"} />
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
                 </div>
                 <div className="flights-slider-text">
                   <p className="h5">Zephyr</p>
@@ -101,18 +137,12 @@ function TopDestination() {
             <div className="slider-content">
               <a href="#">
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
-                </div>
-                <div className="flights-slider-text">
-                  <p className="h5">Zephyr</p>
-                  <p>Somewhere Unknown</p>
-                </div>
-              </a>
-            </div>
-            <div className="slider-content">
-              <a href="#">
-                <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
                 </div>
                 <div className="flights-slider-text">
                   <p className="h5">Zephyr</p>
