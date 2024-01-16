@@ -133,6 +133,18 @@ function Navbar() {
                 </li> */}
                 <li
                   onClick={handleClick}
+                  className={counter === "/hotels" ? "active" : ""}
+                >
+                  <Link
+                    aria-label="Flights"
+                    to="/hotels"
+                    onClick={scrollToTop}
+                  >
+                    Hotels
+                  </Link>
+                </li>
+                <li
+                  onClick={handleClick}
                   className={counter === "/business-class" ? "active" : ""}
                 >
                   <Link

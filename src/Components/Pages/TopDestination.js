@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import { hiddenNumber } from "../GlobalData/GlobalMetaData";
 
 function TopDestination() {
+<<<<<<< HEAD
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -28,6 +29,27 @@ function TopDestination() {
       function handleCall(){
         window.location.href=hiddenNumber
       }
+=======
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 5,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+>>>>>>> d7f619c24401819caaad767f57f8be658be7fdf2
   return (
     <>
       <section className="my-5">
@@ -49,7 +71,7 @@ function TopDestination() {
                 />
               </sub>
             </p>
-            <p className="text-white-1">Its 1:04 AM and I am high af so...</p>
+            <p className="text-white-1">Ready to find your next obsession?</p>
           </div>
           {/* <div className="flights-slider"> */}
           {/* <Slider {...settings} className="flights-slider"> */}
@@ -63,7 +85,32 @@ function TopDestination() {
             <div className="slider-content" onClick={()=>handleCall()}>
             
                 <div className="flights-slider-img">
+<<<<<<< HEAD
                   <img src={require("../assets/img/city/atlanta.webp")} alt="top destination" width={"183"} height={"183"}  />
+=======
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
+                </div>
+                <div className="flights-slider-text">
+                  <p className="h5">Idaho</p>
+                  <p>Somewhere Unknown</p>
+                </div>
+              </a>
+            </div>
+            <div className="slider-content">
+              <a href="#">
+                <div className="flights-slider-img">
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
+>>>>>>> d7f619c24401819caaad767f57f8be658be7fdf2
                 </div>
                 <div className="flights-slider-text">
                   {/* <p className="h5">Zephyr</p> */}
@@ -74,7 +121,16 @@ function TopDestination() {
             <div className="slider-content" onClick={()=>handleCall()}>
           
                 <div className="flights-slider-img">
+<<<<<<< HEAD
                   <img src={require("../assets/img/city/austin.webp")} alt="top destination" width={"183"} height={"183"}  />
+=======
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
+>>>>>>> d7f619c24401819caaad767f57f8be658be7fdf2
                 </div>
                 <div className="flights-slider-text">
                   {/* <p className="h5">Zephyr</p> */}
@@ -85,7 +141,16 @@ function TopDestination() {
             <div className="slider-content" onClick={()=>handleCall()}>
             
                 <div className="flights-slider-img">
+<<<<<<< HEAD
                   <img src={require("../assets/img/city/chicago.webp")} alt="top destination" width={"183"} height={"183"}  />
+=======
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
+>>>>>>> d7f619c24401819caaad767f57f8be658be7fdf2
                 </div>
                 <div className="flights-slider-text">
                   {/* <p className="h5">Zephyr</p> */}
@@ -96,7 +161,16 @@ function TopDestination() {
             <div className="slider-content" onClick={()=>handleCall()}>
             
                 <div className="flights-slider-img">
+<<<<<<< HEAD
                   <img src={require("../assets/img/city/denver.webp")} alt="top destination" width={"183"} height={"183"} />
+=======
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
+>>>>>>> d7f619c24401819caaad767f57f8be658be7fdf2
                 </div>
                 <div className="flights-slider-text">
                   {/* <p className="h5">Zephyr</p> */}
@@ -107,6 +181,7 @@ function TopDestination() {
             <div className="slider-content" onClick={()=>handleCall()}>
               
                 <div className="flights-slider-img">
+<<<<<<< HEAD
                   <img src={require("../assets/img/city/lasvegas.webp")} alt="top destination" width={"183"} height={"183"}  />
                 </div>
                 <div className="flights-slider-text">
@@ -119,6 +194,14 @@ function TopDestination() {
               
                 <div className="flights-slider-img">
                   <img src={require("../assets/img/city/los_angeles.webp")} alt="top destination" width={"183"} height={"183"}  />
+=======
+                  <img
+                    src={require("../assets/img/gallery/london.webp")}
+                    alt="top destination"
+                    width={"183"}
+                    height={"183"}
+                  />
+>>>>>>> d7f619c24401819caaad767f57f8be658be7fdf2
                 </div>
                 <div className="flights-slider-text">
                   {/* <p className="h5">Zephyr</p> */}
