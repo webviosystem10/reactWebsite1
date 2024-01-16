@@ -42,11 +42,11 @@ function Footer() {
                         Terms & Conditions
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="mx-xl-2" to="/flights" onClick={scrollToTop}>
                         Flight
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link  className="mx-xl-2" to="/refund-policy" onClick={scrollToTop}>
                         Refund Policy

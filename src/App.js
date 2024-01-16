@@ -70,15 +70,15 @@ function App() {
   return (
    <>
    <Provider store={store}>
-   {/* <Router basename='/reactweb' > */}
-   <Router> 
+   <Router basename='/lynaAirReact' >
+   {/* <Router>  */}
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/first-class" element={<FirstClass/>} />
       <Route path="/business-class" element={<Business/>} />
       <Route path="/thank-you" element={<ThankYou/>} />
-      <Route path="/air-transat" element={<AirTransat/>} />
+      {/* <Route path="/air-transat" element={<AirTransat/>} />
       <Route path="/flair-airline" element={<Flair/>} />
       <Route path="/cathay-pacific-airline" element={<Cathay/>} />
       <Route path="/lot-polish-airline" element={<Lot/>} />
@@ -124,13 +124,13 @@ function App() {
       <Route path="/qatar" element={<Qatar/>} />
       <Route path="/jetBlue-airline" element={<JetBlue/>} />
       <Route path="/delta-airline" element={<Delta/>} />
-      <Route path="/alaska-airline" element={<AlaskaAir/>} />
+      <Route path="/alaska-airline" element={<AlaskaAir/>} /> */}
       <Route path="/sitemap" element={<Sitemap/>} />
-      <Route path="/air-canada" element={<AirCanada/>} />
+      {/* <Route path="/air-canada" element={<AirCanada/>} /> */}
       <Route path="/flight-review" element={<FlightBooking/>} />
       <Route path="/loader" element={<FlightLoader/>} />
       <Route path="/contact" element={<Contact/>} />
-      <Route path="/flights" element={<Flights/>} />
+      {/* <Route path="/flights" element={<Flights/>} /> */}
       <Route path="/about-us" element={<About/>} />
       <Route path="/flight-not-found" element={<FlightNotFound/>} />
       <Route path="/flight-search"  element={<FlightSearch/>} />

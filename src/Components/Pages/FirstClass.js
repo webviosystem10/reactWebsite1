@@ -37,7 +37,7 @@ function FirstClass() {
               </p>
               <div className='mt-4'>
                 <img
-                  src="https://itravelofare.com/assets/images/flights/air-canada.webp"
+                  src={require("../assets/img/gallery/firstclass.webp")}
                   width="100%"
                 />
               </div>

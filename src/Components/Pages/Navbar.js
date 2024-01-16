@@ -119,7 +119,7 @@ function Navbar() {
                     About Us
                   </Link>
                 </li>
-                <li
+                {/* <li
                   onClick={handleClick}
                   className={counter === "/flights" ? "active" : ""}
                 >
@@ -130,7 +130,7 @@ function Navbar() {
                   >
                     Flights
                   </Link>
-                </li>
+                </li> */}
                 <li
                   onClick={handleClick}
                   className={counter === "/business-class" ? "active" : ""}

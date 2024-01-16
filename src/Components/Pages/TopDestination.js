@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { hiddenNumber } from "../GlobalData/GlobalMetaData";
 
 function TopDestination() {
     const responsive = {
@@ -22,6 +23,11 @@ function TopDestination() {
           items: 1
         }
       };
+
+      // Handle calling 
+      function handleCall(){
+        window.location.href=hiddenNumber
+      }
   return (
     <>
       <section className="my-5">
@@ -54,71 +60,104 @@ function TopDestination() {
             showDots={true}
             showArrows={false}
           >
-            <div className="slider-content">
-              <a href="#">
+            <div className="slider-content" onClick={()=>handleCall()}>
+            
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img src={require("../assets/img/city/atlanta.webp")} alt="top destination" width={"183"} height={"183"}  />
                 </div>
                 <div className="flights-slider-text">
-                  <p className="h5">Zephyr</p>
-                  <p>Somewhere Unknown</p>
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>Atlanta</p>
                 </div>
-              </a>
+             
             </div>
-            <div className="slider-content">
-              <a href="#">
+            <div className="slider-content" onClick={()=>handleCall()}>
+          
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img src={require("../assets/img/city/austin.webp")} alt="top destination" width={"183"} height={"183"}  />
                 </div>
                 <div className="flights-slider-text">
-                  <p className="h5">Zephyr</p>
-                  <p>Somewhere Unknown</p>
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>Austin</p>
                 </div>
-              </a>
+        
             </div>
-            <div className="slider-content">
-              <a href="#">
+            <div className="slider-content" onClick={()=>handleCall()}>
+            
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img src={require("../assets/img/city/chicago.webp")} alt="top destination" width={"183"} height={"183"}  />
                 </div>
                 <div className="flights-slider-text">
-                  <p className="h5">Zephyr</p>
-                  <p>Somewhere Unknown</p>
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>Chicago</p>
                 </div>
-              </a>
+        
             </div>
-            <div className="slider-content">
-              <a href="#">
+            <div className="slider-content" onClick={()=>handleCall()}>
+            
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"} />
+                  <img src={require("../assets/img/city/denver.webp")} alt="top destination" width={"183"} height={"183"} />
                 </div>
                 <div className="flights-slider-text">
-                  <p className="h5">Zephyr</p>
-                  <p>Somewhere Unknown</p>
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>Denver</p>
                 </div>
-              </a>
+      
             </div>
-            <div className="slider-content">
-              <a href="#">
+            <div className="slider-content" onClick={()=>handleCall()}>
+              
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img src={require("../assets/img/city/lasvegas.webp")} alt="top destination" width={"183"} height={"183"}  />
                 </div>
                 <div className="flights-slider-text">
-                  <p className="h5">Zephyr</p>
-                  <p>Somewhere Unknown</p>
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>Las Vegas</p>
                 </div>
-              </a>
+     
             </div>
-            <div className="slider-content">
-              <a href="#">
+            <div className="slider-content" onClick={()=>handleCall()}>
+              
                 <div className="flights-slider-img">
-                  <img src={require("../assets/img/gallery/london.webp")} alt="top destination" width={"183"} height={"183"}  />
+                  <img src={require("../assets/img/city/los_angeles.webp")} alt="top destination" width={"183"} height={"183"}  />
                 </div>
                 <div className="flights-slider-text">
-                  <p className="h5">Zephyr</p>
-                  <p>Somewhere Unknown</p>
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>Los Angeles</p>
                 </div>
-              </a>
+            
+            </div>
+            <div className="slider-content" onClick={()=>handleCall()}>
+             
+                <div className="flights-slider-img">
+                  <img src={require("../assets/img/city/newyork.webp")} alt="top destination" width={"183"} height={"183"}  />
+                </div>
+                <div className="flights-slider-text">
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>New York</p>
+                </div>
+           
+            </div>
+            <div className="slider-content" onClick={()=>handleCall()}>
+            
+                <div className="flights-slider-img">
+                  <img src={require("../assets/img/city/orlando.webp")} alt="top destination" width={"183"} height={"183"}  />
+                </div>
+                <div className="flights-slider-text">
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>Orlando</p>
+                </div>
+              
+            </div>
+            <div className="slider-content" onClick={()=>handleCall()}>
+              
+                <div className="flights-slider-img">
+                  <img src={require("../assets/img/city/sanfrancisco.webp")} alt="top destination" width={"183"} height={"183"}  />
+                </div>
+                <div className="flights-slider-text">
+                  {/* <p className="h5">Zephyr</p> */}
+                  <p>San Francisco</p>
+                </div>
+              
             </div>
           </Carousel>
           {/* </div> */}

@@ -116,7 +116,7 @@ function Home() {
           <RecomendedFlight />
           {/* Recommended Flights End */}
           {/* Our Partners Start */}
-          <FlyingPartners />
+          {/* <FlyingPartners /> */}
           {/* Our Partners End */}
           {/* Top Destinations Start */}
 

@@ -41,9 +41,9 @@ function Sitemap() {
         <div className="col-lg-3 col-md-4 col-6">
           <Link onClick={goToTop} to="/about-us">About Us</Link>
         </div>
-        <div className="col-lg-3 col-md-4 col-6">
+        {/* <div className="col-lg-3 col-md-4 col-6">
           <Link onClick={goToTop} to="/flights">Flights</Link>
-        </div>
+        </div> */}
         <div className="col-lg-3 col-md-4 col-6">
           <Link onClick={goToTop} to="/contact">Contact Us</Link>
         </div>
@@ -58,11 +58,11 @@ function Sitemap() {
         </div>
       </div>
       <div className="divider" />
-      <div className="col-md-12 col-lg-12 col-12 mt-5 d-flex" data-aos="right">
+      {/* <div className="col-md-12 col-lg-12 col-12 mt-5 d-flex" data-aos="right">
         <p className="h4">Popular Airlines</p>
         <i className="icofont-hand-drawn-right" />
-      </div>
-      <div className="row mt-2">
+      </div> */}
+      {/* <div className="row mt-2">
         <div className="col-lg-3 col-md-4 col-6">
           <Link onClick={goToTop} to="/air-canada">Air Canada</Link>
         </div>
@@ -153,7 +153,7 @@ function Sitemap() {
         <div className="col-lg-3 col-md-4 col-6">
           <Link onClick={goToTop} to="/lynx-airline">Lynx Air</Link>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 </section>
